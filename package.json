@@ -2,7 +2,6 @@
   "name": "serviceflow",
   "version": "0.1.0",
   "private": true,
-  "type": "module",
   "scripts": {
     "dev": "tsx watch server.ts",
     "build": "next build",
@@ -24,8 +23,6 @@
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "tsx": "^4.19.2",
-    "typescript": "^5.8.2",
-    "eslint": "^9.0.0",
-    "eslint-config-next": "^15.2.0"
+    "typescript": "^5.8.2"
   }
 }
